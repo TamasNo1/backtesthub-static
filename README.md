@@ -1,0 +1,1 @@
+# backtesthub-static
