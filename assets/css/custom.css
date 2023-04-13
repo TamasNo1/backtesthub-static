@@ -1,36 +1,24 @@
-.cta-sign-up form {
-    margin-top: 30px;
-    background: var(--color-white);
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
+.cta-sign-up .btn-getstarted,
+.cta-sign-up .btn-getstarted:focus {
+    cursor: pointer;
+  font-size: 16px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 8px 23px;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-family: var(--font-secondary);
 }
 
-.cta-sign-up form input[type=email] {
-    border: 0;
-    padding: 4px;
-    width: calc(100% - 110px);
+.cta-sign-up .btn-getstarted:hover,
+.cta-sign-up .btn-getstarted:focus:hover {
+  color: var(--color-white);
+  background: rgba(var(--color-primary-rgb), 0.85);
 }
 
-.cta-sign-up form input[type=email]:focus-visible {
-    outline: none;
-}
-
-.cta-sign-up form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: var(--color-primary);
-    color: var(--color-white);
-    transition: 0.3s;
-    border-radius: 0 4px 4px 0;
-}
-
-.cta-sign-up form input[type=submit]:hover {
-    background: rgba(var(--color-primary-rgb), 0.85);
+@media (max-width: 1279px) {
+  .cta-sign-up .btn-getstarted,
+  .cta-sign-up .btn-getstarted:focus {
+    margin-right: 50px;
+  }
 }
