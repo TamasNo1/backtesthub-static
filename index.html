@@ -46,8 +46,6 @@
         document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";                  
         document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     }
-        
-    document.getElementById("show-popup").onclick = function() { showPopup(); }
     </script>
 </head>
 
@@ -97,7 +95,7 @@
             <div class="cta-sign-up col-lg-8 col-md-6">
               <h4>Ready to revolutionise your backups?</h4>
               <p>Secure your place on our priority waitlist now! Share your email, and be among the first to unlock our comprehensive, user-friendly solution. Take control of your database backups with ease and confidence.</p>
-              <a class="btn-getstarted" id="show-popup" onclick="function() { showPopup(); }">Sign me up!</a>
+              <a class="btn-getstarted" id="show-popup" onclick="showPopup();">Sign me up!</a>
             </div>
           </div>
 
